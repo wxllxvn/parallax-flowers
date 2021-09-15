@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --josefin: 'Josefin Sans', sans-serif;
+    --yellow: #F2CB05;
+    --orange: #F28705;
+    --brown:  #A64732;
+}
+
+.header{
+    background-image: url(images/header.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 80vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1.tittle{
+    background-color: white;
+    color: var(--brown);
+    font-family: var(--josefin);
+    font-size: 50px;
+    font-weight: 700;
+    padding: 10px;
+}
+
+
+.text-content{
+    background-color: var(--orange);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 70%;
+    color: white;
+    font-family: var(--josefin);
+    padding: 20px;
+    letter-spacing: 2px;
+    line-height: 25px;
+}
+
+.flowers-img{
+    width: 100%;
+}
+
+.type-flowers{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+}
+
+.type-img{
+    position: fixed;
+    width: 50%;
+    height: 250px;
+}
+
+
+
