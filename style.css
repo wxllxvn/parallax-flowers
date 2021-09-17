@@ -52,22 +52,35 @@ h1.tittle{
     line-height: 25px;
 }
 
-.flowers-img{
-    width: 100%;
-}
+
+
 
 .type-flowers{
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    height: 250px;
 }
 
-.type-img{
-    position: fixed;
-    width: 50%;
+
+.type-one, .type-two, .type-three{
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 33.3%;
     height: 250px;
+
+}
+
+.type-one{
+    background-image: url(images/flower-1.jpg);
+}
+
+.type-two{
+    background-image: url(images/flower-2.jpg);
+}
+
+.type-three{
+    background-image: url(images/flower-3.jpg);
 }
 
 
