@@ -43,6 +43,7 @@ h1.tittle{
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
 
 .container{
@@ -51,6 +52,11 @@ h1.tittle{
     padding: 20px;
     letter-spacing: 2px;
     line-height: 25px;
+
+}
+
+.container p{
+    text-align: justify;
 }
 
 
@@ -114,6 +120,8 @@ footer p{
     width: 25px;
     margin-left: 10px;
 }
+
+
 
 
 
